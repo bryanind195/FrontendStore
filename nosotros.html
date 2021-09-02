@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--BEM Block Element Modifier-->
+    <!--bloque-->
+    <header class="header">
+        <!---Al dar clic en el logotipo este se linkea a index.html-->
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <!--bloque-->
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p> Donec quis eros a lorem hendrerit pulvinar non eget nisl. Maecenas varius tempus dui ac finibus. Suspendisse turpis tortor, porta porttitor convallis sed, aliquet non mi. Nunc felis nunc, suscipit vitae rhoncus in, cursus at erat. Nulla ullamcorper leo quis aliquet placerat. In efficitur, nisi quis vehicula lacinia, lorem ex placerat nisl, non pulvinar tellus felis a felis. Praesent fringilla nunc quis sem condimentum, eget luctus urna porta. </p>
+
+                <p> Nulla vel pulvinar libero. Donec fringilla lacus sit amet elit scelerisque aliquam. Suspendisse tristique nec orci vel finibus. Mauris non maximus diam, vel feugiat leo. Duis pellentesque nibh at sollicitudin porttitor. </p>
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo" > Por que Compran Con Nosotros ? </h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__iamgen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque_titulo"> El Mejor Precio</h3>
+                <p>Nulla vel pulvinar libero. Donec fringilla lacus sit amet elit scelerisque aliquam.</p>
+            </div><!---termina aqui .bloque-->
+            <div class="bloque">
+                <img class="bloque__iamgen" src="img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque_titulo"> Para Devs</h3>
+                <p>Nulla vel pulvinar libero. Donec fringilla lacus sit amet elit scelerisque aliquam.</p>
+            </div><!---termina aqui .bloque-->
+            <div class="bloque">
+                <img class="bloque__iamgen" src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque_titulo"> Envio Gratis</h3>
+                <p>Nulla vel pulvinar libero. Donec fringilla lacus sit amet elit scelerisque aliquam.</p>
+            </div><!---termina aqui .bloque-->
+            <div class="bloque">
+                <img class="bloque__iamgen" src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque_titulo"> La Mejor Calidad</h3>
+                <p>Nulla vel pulvinar libero. Donec fringilla lacus sit amet elit scelerisque aliquam.</p>
+            </div><!---termina aqui .bloque-->
+            
+        </div><!---termina aqui .bloques-->
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto"> Front End Store - Todos los derechos Reservados 2022 ANGEL INDACOCHEA.</p>
+    </footer>
+</body>
+</html>
